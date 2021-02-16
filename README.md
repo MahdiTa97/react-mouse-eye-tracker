@@ -4,4 +4,4 @@ Simple incomprehensible exercise for collegial practice by implementing a mouse 
 
 ## run
 
- `yarn` && `yarn start`
+ `yarn` & `yarn start`
