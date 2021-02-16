@@ -69,7 +69,7 @@ const ImageGame = () => {
           <button className="text-red-900 font-bold" onClick={handleClose}>
             Close
           </button>
-          <h2 className="text-3xl font-extrabold text-center md:p-7 text-gray-700 cursor-default capitalize">
+          <h2 className="text-3xl font-extrabold text-center md:p-7 my-7 text-gray-700 cursor-default capitalize">
             Your point is: {distance}
           </h2>
           <div class="relative text-gray-700">
@@ -86,7 +86,7 @@ const ImageGame = () => {
             </form>
           </div>
 
-          <h2 className="text-3xl font-bold text-center md:p-7 text-yellow-900 cursor-default capitalize">
+          <h2 className="text-base my-7 md:text-3xl font-bold text-center md:p-7 text-yellow-900 cursor-default capitalize">
             {result ?? "Please Enter The Button For Result"}
           </h2>
         </Modal>
